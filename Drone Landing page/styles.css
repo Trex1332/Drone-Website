@@ -1,0 +1,73 @@
+#Product img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 0;
+    margin-left: 150px;
+    top:0;
+    
+}
+
+#Product{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+h2{
+    top: 0;
+    
+    padding-left: 1000px;
+}
+header{
+    display: block;
+
+    background-color: antiquewhite;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    gap: 10px;
+    margin-left: 150px;
+    object-fit: cover;
+
+}
+h1, h3{
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 1px solid;
+}
+button{
+    margin-left: 46%;
+    border-radius: 5px;
+    background-color: wheat;
+    width: 100px;
+    height: 30px;
+    
+}
+#Buy{
+    height: 100px;
+    padding-top: 30px;
+    background-color: gray;
+    padding-bottom: 30px;
+
+
+
+    
+}
